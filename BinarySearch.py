@@ -12,7 +12,7 @@ Explanation: 9 exists in nums and its index is 4
 
 '''
 Solution:
-use lbinsearch with condition of >= to find the first condition mathcing the condition 
+use left bin search with condition of >= to find the first condition mathcing the condition 
 '''
 
 def search(self, nums: List[int], target: int) -> int:
